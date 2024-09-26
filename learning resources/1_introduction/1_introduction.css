@@ -3,4 +3,8 @@ button{
     background-color: rgb(186, 243, 183);
     position: relative;
     left: 50%;
+    height: 50px;
+    border:dotted;
+
 }
+
