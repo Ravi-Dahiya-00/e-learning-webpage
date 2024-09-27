@@ -103,11 +103,14 @@ mark {
     padding: 20px;
     text-align: center;
     border-top: 2px dashed #f39c12;
+    position: relative;
+    left: 19.1%;
 }
 
 .next-lecture-text {
     font-size: 1.5em;
     color: #e67e22;
+
 }
 
 /* Navigation Buttons */
