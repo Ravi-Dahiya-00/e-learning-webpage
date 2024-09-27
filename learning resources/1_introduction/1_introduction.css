@@ -1,10 +1,131 @@
-button{
-    color:rgb(19, 19, 19);
-    background-color: rgb(186, 243, 183);
-    position: relative;
-    left: 50%;
-    height: 50px;
-    border:dotted;
-
+/* Global Styles */
+body {
+    background-color: #1e1e2f;  /* Darker shade for a sleek look */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
 }
 
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 50px;
+    background-color: #27293d;
+}
+
+.python-intro {
+    font-size: 2.8em;
+    color: #f39c12;
+    margin: 0;
+}
+
+.start-btn {
+    font-size: 1.2em;
+    padding: 12px 24px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: #e67e22;
+}
+
+/* Section Styles */
+section {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: rgba(39, 41, 61, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+h2, h1 {
+    color: #f39c12;
+}
+
+/* Video Section */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Content Section */
+.python-def, .history-sec, .usage-sec {
+    margin-bottom: 30px;
+}
+
+.python-text, .history-text {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Highlighted Text */
+mark {
+    background-color: #e67e22;
+    color: white;
+}
+
+/* Usage List */
+.usage-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.usage-item {
+    font-size: 1.2em;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Next Lecture Note */
+.next-lecture-sec {
+    margin: 30px 0;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px dashed #f39c12;
+}
+
+.next-lecture-text {
+    font-size: 1.5em;
+    color: #e67e22;
+}
+
+/* Navigation Buttons */
+.navigation-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev-btn, .next-btn {
+    background-color: #f39c12;
+    padding: 12px 24px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: #e67e22;
+}
