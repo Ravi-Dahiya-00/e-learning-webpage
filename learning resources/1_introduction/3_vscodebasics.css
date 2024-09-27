@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    background-color: #1e1e2f;  /* Darker shade for a sleek look */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    padding: 50px;
+    background-color: #27293d;
+}
+
+.python-intro {
+    font-size: 2.8em;
+    color: #f39c12;
+    margin: 0;
+}
+
+/* Section Styles */
+.step-sec {
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: rgba(39, 41, 61, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* Titles */
+.step-title, .video-title {
+    color: #f39c12;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.video-title {
+    text-align: center;
+}
+
+/* Video Section */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Code Box Styles */
+.code-box {
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    position: relative;
+}
+
+.code-box::before {
+    content: "Copy Code";
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: #f39c12;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Navigation Buttons */
+.navigation-sec {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.prev-btn, .next-btn {
+    background-color: #f39c12;
+    padding: 12px 24px;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: #e67e22;
+}
+
+/* Additional Styles */
+.navigation-box {
+    background-color: rgba(39, 41, 61, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    text-align: center;
+}
