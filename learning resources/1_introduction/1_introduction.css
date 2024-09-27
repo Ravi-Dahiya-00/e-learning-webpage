@@ -81,8 +81,19 @@ h2, h1 {
 
 /* Highlighted Text */
 mark {
-    background-color: #e67e22;
+    background-color: #5261d3;
     color: white;
+}
+
+/* Specific Colors for Web Development and Data Science */
+.web-dev {
+    color: #1c211d; /* Blue color for Web Development */
+    font-weight: bold;
+}
+
+.data-science {
+    color: #111114; /* Purple color for Data Science & AI */
+    font-weight: bold;
 }
 
 /* Usage List */
@@ -104,13 +115,25 @@ mark {
     text-align: center;
     border-top: 2px dashed #f39c12;
     position: relative;
-    left: 19.1%;
+    left: 14.5%;
 }
 
 .next-lecture-text {
     font-size: 1.5em;
-    color: #e67e22;
+    color: #19e887;
+}
 
+/* Usage Subtitle Style */
+.usage-subtitle {
+    font-size: 1.5em;
+    text-align: center;
+    color: #da2a50;
+}
+
+.highlight {
+    font-size: 1.6em;
+    color: #efc909; /* Highlight color for the phrase */
+    font-weight: bold;
 }
 
 /* Navigation Buttons */
